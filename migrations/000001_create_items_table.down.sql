@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS book_entries;
+DROP TABLE IF EXISTS stocks;
+DROP TABLE IF EXISTS shelves;
+DROP TABLE IF EXISTS items;s
+
+
+
