@@ -14,13 +14,6 @@ type ShipRequest struct {
 	Quantity int   `json:"quantity"`
 }
 
-type ItemResponse struct {
-	ID   int64  `json:"id"`
-	SKU  string `json:"sku"`
-	Name string `json:"name"`
-	Unit string `json:"unit"`
-}
-
 func (r *ReceiveRequest) ToRecRequest() model.Receive {
 	return model.Receive{
 		ItemID:   r.ItemID,
