@@ -1,3 +1,3 @@
-module pp
+module warehouse
 
 go 1.26.4
