@@ -7,14 +7,13 @@ type Item struct {
 	SKU     string
 	Name    string
 	Unit    string
-	ShelfID int
+	ShelfID int64
 }
 
 type Shelf struct {
-	ID        int64
-	Code      string
-	Capacity  int
-	ItemCount int
+	ID       int64
+	Code     string
+	Capacity int
 }
 
 type Receive struct {
